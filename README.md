@@ -1,10 +1,14 @@
+# Details
+
+This is a test project to integrate a fresh Angular application with Electron, and use a Node Express server as a local backend. Electron will target the `index.html` file that exists in the dist folder after running `ng build` and bootstraps that as the application. At the same time in the same `createWindow` method, we launch the Express backend and set it to listen at port 3000. These are all of the modifications that I performed.
+
 # AngularElectron
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm run electron-build` to start the application and the Express server.
 
 ## Code scaffolding
 
